@@ -1,0 +1,18 @@
+body{ 
+    /*background-color: burlywood;*/
+    background-image: url(images.jpg);
+    background-size: contain;
+}
+p{
+    color: black;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-style: italic;
+    /*margin: 100px 0px 0px 100px;*/
+    /*border: 100px 0px 0px 100px;*/
+    padding: 100px 0px 0px 100px;
+    border-width: 20px;
+    border-style: dotted;
+    border-color: blanchedalmond;
+}

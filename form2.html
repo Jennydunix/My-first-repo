@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FORMS</title>
+<h1>REGISTRATION FORM</h1>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+input[type=text] {
+width: 100%;
+padding: 20px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color:peachpuff;
+
+}
+input[type= email]{
+width: 100%;
+padding: 20px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color: peachpuff;
+
+}
+input[type= password]{
+width: 100%;
+padding: 20px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color: peachpuff
+
+}
+form{
+    border: 3px solid black;
+    margin: 50px;
+    padding: 70px;
+}
+
+</style>
+
+</head>
+<body>
+
+<form method="post">
+<label>FULL NAME:</label>
+<input type="text" name="name" placeholder="surname first"> </br></br>
+<label>USERNAME</label>
+<input type="text" name="username" placeholder="input username"></br></br>
+<label>EMAIL ADDRESS:</label>
+<input type="email" name="email"></br></br>
+<label>PASSWORD:</label>
+<input type="password" name="pword" placeholder="not less than 8"></br></br>
+<label>GENDER:</label>
+<input type="radio" name="gender" value="Male" checked>Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Other">Other
+</br></br>
+<label>DATE OF BIRTH:</label>
+<input type="date" name="Bday">
+</br></br>
+<label>PHONE TYPES:</label>
+<select name="phones">
+<option value="Iphone">Iphone</option>
+<option value="Samsung">Samsung</option>
+<option value="Infinix">Infinix</option>
+<option value="Tecno">Tecno</option>
+
+</select>
+</br></br>
+
+<input type="submit" name="submit" value="SIGN UP">
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FORMS</title>
+<h1>REGISTRATION FORM</h1>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+    .info {
+        background-color: white;
+        font-family: serif;
+        border: 10px solid;
+        padding: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 300px;
+        height: 500px
+        border: 1Opx solid rgb(0, 102, 255);
+
+
+}
+ 
+.more{
+text-align: center;
+border: 10px solid cornflowerblue;
+background-color: white;
+padding: 50px;
+margin-left: 50px;
+line-height: 1.0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<form method="post">
+<label>FULL NAME:</label>
+<input type="text" name="name" placeholder="surname first"> </br></br>
+<label>USERNAME</label>
+<input type="text" name="username" placeholder="input username"></br></br>
+<label>EMAIL ADDRESS:</label>
+<input type="email" name="email"></br></br>
+<label>PASSWORD:</label>
+<input type="password" name="pword" placeholder="not less than 8"></br></br>
+<label>QUANTITY:</label>
+<input type="number" name="qty" value="1" min="1" max="5"></br></br>
+<label>GENDER:</label>
+<input type="radio" name="gender" value="Male" checked>Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Other">Other
+</br></br>
+<label>LANGUAGE:</label>
+<input type="checkbox" name="language" value="Python">Python
+<input type="checkbox" name="language" value="PHP">PHP
+<input type="checkbox" name="language" value="JAVA">JAVA
+<input type="checkbox" name="language" value="C++">C++
+</br></br>
+<label>DATE OF BIRTH:</label>
+<input type="date" name="Bday">
+</br></br>
+<label>PHONE TYPES:</label>
+<select name="phones">
+<option value="Iphone">Iphone</option>
+<option value="Samsung">Samsung</option>
+<option value="Infinix">Infinix</option>
+<option value="Tecno">Tecno</option>
+
+</select>
+</br></br>
+<div>
+ <p class="info"> N:B This helps us know your preferences to help us serve you 
+ better. Not to worry your information is safe with us </p>
+
+
+ </div>
+
+ <div class="more">
+    <p> Its completely safe so trust us when we say you can trust us. INTEGRITY!!!</p>
+
+    
+
+    </div>
+</br></br>
+
+<input type="submit" name="submit" value="SIGN UP">
+
+</form>
+
+
+</body>
+</html>

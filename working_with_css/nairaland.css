@@ -1,0 +1,39 @@
+.container_1 h1 a{
+    color: green;
+    text-decoration: none;
+}
+.container_1 h1 a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.container_1 span a{
+    color: indigo;
+    text-decoration: none;
+}
+.container_1 span a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.container_2 a{
+    color: indigo;
+    text-decoration: none;
+}
+.container_2 a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.boxed{
+}
+div{
+    border:solid 0.5px black;
+    border-radius: 15px;
+    margin:10px 100px 10px 100px;
+}
+.Search Nairaland{
+    margin: 10px;
+    border-radius: 50px;
+    width: 500px;
+}
+.Search{
+    border-radius: 15px;
+}
